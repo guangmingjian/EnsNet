@@ -1,0 +1,1 @@
+{"num_layers": 3, "hidden": 64, "dropout": 0.1, "model_type": "ThreeModel", "temperature": 1, "beta": 2, "gama": 0.0005, "yta": 100, "alpha": 1, "ds_name": "IMDB-MULTI", "in_channels": 89, "out_channels": 3, "device": "cuda:1"}

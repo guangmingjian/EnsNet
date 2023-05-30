@@ -1,0 +1,1 @@
+{"num_layers": 3, "hidden": 64, "dropout": 0.1, "ds_name": "Mutagenicity", "model_type": "ThreeModel", "temperature": 0.5, "beta": 1, "gama": 0.0005, "yta": 50, "alpha": 1, "in_channels": 14, "out_channels": 2, "device": "cuda:1"}

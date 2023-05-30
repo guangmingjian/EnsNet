@@ -1,0 +1,28 @@
+{
+
+  "model": "EnsNet",
+  "data_dir" : "dataset/TU/",
+  "out_dir": "out/",
+
+  "train_config": {
+        "epochs": 300,
+        "batch_size": 128,
+        "seed": 8971,
+        "patience" : 50,
+        "lr" : 1e-4,
+        "kf": 10,
+        "weight_decay": 1e-5
+    },
+
+  "net_params": {
+    "num_layers": 3,
+    "hidden": 64,
+    "dropout": 0.1,
+    "model_type": "ThreeModel",
+    "temperature": 1,
+    "beta": 0.5,
+    "gama": 0,
+    "yta": 30,
+    "alpha": 1
+  }
+}

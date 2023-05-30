@@ -1,0 +1,1 @@
+{"num_layers": 3, "hidden": 64, "dropout": 0.1, "ds_name": "REDDIT-MULTI-12K", "model_type": "ThreeModel", "temperature": 0.1, "beta": 2, "gama": 0.01, "yta": 200, "alpha": 1, "in_channels": 1, "out_channels": 11, "device": "cuda:2"}
